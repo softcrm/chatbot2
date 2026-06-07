@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     }
 
     // Gemini API 엔드포인트 URL
-    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`;
 
     try {
         const response = await fetch(apiUrl, {
